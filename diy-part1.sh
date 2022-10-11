@@ -19,7 +19,6 @@
 
 # Add prepareCompile
 disablePkgsList="
-./feeds/luci/applications/luci-app-passwall
 ./feeds/luci/applications/luci-app-softethervpn
 ./feeds/packages/net/adguardhome
 ./feeds/packages/net/mosdns
