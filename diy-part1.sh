@@ -35,6 +35,7 @@ disablePkgsList="
 ./feeds/small8/my-default-settings
 ./feeds/small8/oaf
 ./feeds/small8/openwrt-minieap
+./feeds/small8/openwrt-app-actions
 "
 
 function disableDulicatedPkg()
