@@ -6,7 +6,7 @@ config smartdns
 	option tcp_server '1'
 	option ipv6_server '1'
 	option dualstack_ip_selection '1'
-	option prefetch_domain '1'
+	option prefetch_domain '0'
 	option serve_expired '1'
 	option cache_size '16384'
 	option resolve_local_hostnames '0'
