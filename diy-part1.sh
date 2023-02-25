@@ -19,7 +19,9 @@
 
 # Add prepareCompile
 disablePkgsList="
+./feeds/small8/MentoHUST-OpenWrt-ipk
 ./feeds/small8/diy
+./feeds/small8/libnftnl
 ./feeds/small8/luci-app-argon-config
 ./feeds/small8/luci-app-argonne-config
 ./feeds/small8/luci-app-mentohust
@@ -27,12 +29,13 @@ disablePkgsList="
 ./feeds/small8/luci-proto-minieap
 ./feeds/small8/luci-theme-argon
 ./feeds/small8/luci-theme-argonne
-./feeds/small8/MentoHUST-OpenWrt-ipk
 ./feeds/small8/mbedtls
+./feeds/small8/mhz
 ./feeds/small8/my-default-settings
+./feeds/small8/nftables
 ./feeds/small8/oaf
-./feeds/small8/openwrt-minieap
 ./feeds/small8/openwrt-app-actions
+./feeds/small8/openwrt-minieap
 "
 
 function disableDulicatedPkg()
